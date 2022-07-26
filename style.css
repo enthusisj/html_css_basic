@@ -1,14 +1,13 @@
-.container {
-  width: 300px;
-  height: 400px;
-  background-color: gray;
-  text-align: center;
-  line-height: 400px;
+li {
+  /* display: block; -리스트 앞 점 없어짐 */
+  list-style: none; /* 리스트 앞 점 없어짐*/
+  margin-bottom: 10px;
+  background-color: #77abff;
+  color: white;
+  padding: 10px 20px;
 }
 
-.info {
-  background-color: lime;
-  display: inline-block;
-  line-height: normal;
-  vertical-align: middle;
+ul {
+  padding-left: 0; /* 왼쪽으로 붙이기*/
+  width: 200px;
 }
